@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="/static/screen.css"  type="text/css" />
+
+    <title>Edit</title>
+
+  </head>
+  <body>
+    <div class="site">
+
+
+      <h1>Editing Your code</h1>
+
+      <form action="/saveCode" method="POST">
+        <div class="submit">
+          <select  name="code_type">
+            <option value="c">C</option>
+            <option value="cpp">C++</option>
+            <option value="py">Python</option>
+            <option value="java">Java</option>
+            <option value="ruby">Ruby</option>
+            <option value="php">PHP</option>
+          </select>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Save"/>
+        </div>
+        <div>
+          <textarea name="code" rows="40" cols="100"></textarea>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+div {
+	color: white;
+}
+body {
+  background-color: RGB(74,82,90);
+  font-size: 13.34px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  *font-size: small;
+  text-align: center;
+}
+h1 {
+    font-size: 150%;
+}
+h2, h3{
+    font-size: 110%;
+}
+
+ h4, h5, h6 {
+  font-size: 100%;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+pre {
+  font-size:95%;
+  line-height: 1em;
+  background:none, repeat scroll #282837;
+}
+
+
+a {
+  color: #00a;
+}
+
+a:link
+{
+    text-decoration:none;
+	color:RGB(221,221,221);
+    border-style: none none solid;
+    border-width:0px 0px 1px;
+    border-color:RGB(136,136,136);
+    padding: 3px 0px 2px;
+    background-color: inherit;
+}
+
+a:hover {
+    color:white;
+    text-decoration:none;
+    background-color:RGB(96,104,112);
+    border-color:RGB(136,136,136);
+}
+
+a:visited {
+    border-color:RGB(136,136,136);
+    color: white;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 100%;
+  text-align: left;
+  width: 60%;
+  min-height: 80%;
+  margin: 3em 15% 2em 15%;
+  line-height: 1.5em;
+}
+
+.title {
+  color:#FFF;
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.site .title a {
+    color:#6FC;
+    text-decoration: none;
+    border-style:none;
+}
+
+  .site .title a:hover {
+    color: #6FC;
+  }
+
+  .site .title a.extra {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 1em;
+  }
+
+  .site .title a.extra:hover {
+    color: #aaa;
+  }
+
+  .site .meta {
+    color: #aaa;
+  }
+
+  .site .nav li{
+      font-size: 80%;
+      display: inline;
+  }
+
+  .site .footer {
+    font-size: 80%;
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+  }
+
+  .site .footer .contact {
+      float: left;
+      margin-right: 3em;
+    }
+
+  .site .footer .contact a {
+        color: #8085C1;
+      }
+
+
+      .site .footer .rss img {
+        border: 0;
+      }
+
+div .submit{
+  float:left;
+}
